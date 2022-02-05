@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.acount-info form {
+  padding: 35px;
+}
+.acount-info h3 {
+  color: white;
+}
+.acount-info {
+  background-image: url("../image/computer.jpeg");
+  background-size: cover;
+  color: rgb(84, 78, 143);
+  font-family: sans-serif;
+  background-attachment: fixed;
+}
+.acount-info .mains .surver-page p {
+  padding-top: 30px;
+
+  text-align: center;
+  font-size: 30px;
+}
+.acount-info .mains p {
+  text-align: center;
+  padding-bottom: 15px;
+}
+.choose h6 {
+  margin-top: 4px;
+  color: aliceblue;
+}
+.acount-info .choose {
+  display: flex;
+  font-size: 18px;
+  font-family: sans-serif;
+  margin-top: 25px;
+  gap: 10px;
+}
+.choose p {
+  color: aliceblue;
+}
+
+select {
+  width: 100%;
+  padding: 20px;
+  padding: 10px 17px;
+  margin: 8px 0;
+  border-radius: 5px;
+  font-size: 15px;
+  color: rgb(98, 101, 102);
+}
+.radio {
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+}
+.radio .check input {
+  height: 16px;
+  width: 16px;
+}
+.acount-info .page-info {
+  background-color: rgba(38, 38, 77, 0.8);
+  margin-top: 50px;
+  width: 70%;
+  height: 120%;
+  margin: auto;
+}
+
+.page-info input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px 17px;
+  margin: 8px 0;
+  display: inline-block;
+  border: none;
+  font-size: 15px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.acount-info .textfield .comment-box textarea {
+  background-color: aliceblue;
+  color: rgb(51, 47, 47);
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: none;
+  outline: 1px solid;
+  height: 100px;
+  width: 90.5%;
+  margin-top: 10px;
+}
+
+.cancelbtn,
+.signupbtn {
+  padding: 14px 15px;
+  width: 100%;
+  border: none;
+  color: white;
+  font-weight: bolder;
+  background-color: rgb(23, 223, 156);
+  margin-top: 29px;
+  border-radius: 4px;
+}
